@@ -1,0 +1,18 @@
+/* watch-series */
+.watch-series{
+    background-image: url(../../../assets/images/home/two-watches.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+
+.watch-ultra{
+    background-image: url(../../../assets/images/home/three-watches.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}

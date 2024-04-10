@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* header css */
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 10px;
+}
+header ul li img{
+    height: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+/* From Aduga Header */
+
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+/* div:hover + span{
+    display: block;
+}
+span{
+    display: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+} */
+
+/* header css ends here */
+.whole-section {
+    margin-top: 50px;
+}
+/* iPHONE 15 Pro text with img css */
+.iPhone15-pro-wrapper{
+    background-image: url(../images/home/iphone-15.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+
+.link-wrapper ul li a{ 
+    padding-right: 30px;
+    color: #06c;
+    text-decoration: none;
+}
+.link-wrapper ul li a:hover{
+    text-decoration: underline;
+}
+.link-wrapper ul li a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 8px;
+    display: inline-block;
+}
+/*  */
+/* iPhone15 */
+.iPhone15{
+    background-image: url(../images/home/white-iphone-15.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+  
+}
+.iphone-text{
+ margin-top: 100px;
+}
+/* watch-series */
+.watch-series{
+    background-image: url(../images/home/two-watches.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+/* watch-ultra */
+.watch-ultra{
+    background-image: url(../images/home/three-watches.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+/* macbook-pro */
+.macbook-pro{
+    background-image: url(../images/home/promo_mbp.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+/* fitness */
+.fitness{
+    background-image: url(../images/home/woman-image.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+/* applecard */
+.applecard{
+    background-image: url(../images/home/tile.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+.trade-in{
+    background-image: url(../images/home/promo_iphon.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+/* ********************Media-Queries********************** */
+@media(min-width:768px){
+    .macbook-pro{
+        background-image: url(../images/home/laptop-image.jpg);
+    }
+}
+
+/* Footer Styling */
+.footer-wrapper {
+    background-color: #f5f5f7;
+    color: #86868b;
+    font-size: 0.7em;
+  }
+  .footer-wrapper ul {
+    list-style: none;
+    padding-bottom: 10px;
+    padding-inline-start: 0px;
+  }
+  .footer-wrapper ul a {
+    color: #515154;
+  }
+  .my-apple-wrapper {
+    padding-bottom: 15px;
+    margin-top: 10px;
+  }
+  .copyright {
+    margin-top: 15px;
+  }
+  .footer-country {
+    margin-top: 8px;
+  }
+  .flag-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+  .footer-country-name {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .footer-links-terms ul {
+    display: flex;
+  }
+  .footer-links-terms ul li {
+    padding: 0 10px;
+    border-right: 1px solid #d2d2d7;
+  }
+  .footer-links-terms ul li:first-child {
+    padding-left: 0;
+  }
+  .footer-links-terms ul li:last-child {
+    border-right: 0;
+  }
+  
+  .footer-links-wrapper h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+  }
+  .footer-wrapper ul li {
+    padding: 4px 0;
+  }
+  .upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 0 10px;
+    margin-bottom: 20px;
+  }
+  .upper-text-container a {
+    color: #515154;
+  }
+  
+  /*Media Query*/
+  /* Footer */
+  @media (max-width: 768px) {
+    .footer-links-wrapper ul {
+      display: none;
+    }
+    .footer-links-wrapper h3 {
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+    .footer-links-wrapper h3:after {
+      font-family: "FontAwesome";
+      content: "\f067";
+      padding-left: 10px;
+      position: absolute;
+      right: 25px;
+    }
+  }
+  @media (min-width: 768px) {
+    /*Nav bar*/
+    .nav-item {
+      text-align: center !important;
+      padding: 0;
+      border-bottom: 0px;
+    }
+    /*Footer styling*/
+    .my-apple-wrapper {
+      border-bottom: 1px solid #d2d2d7;
+    }
+  }
+  @media (min-width: 992px) {
+    /*Footer styling*/
+    .copyright {
+      margin-top: 10px;
+    }
+    .footer-country {
+      margin-top: 10px;
+    }
+    .footer-links-terms {
+      margin-top: 10px;
+    }
+  }

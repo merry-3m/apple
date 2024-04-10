@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.link-wrapper ul li a{ 
+    padding-right: 30px;
+    color: #06c;
+    text-decoration: none;
+}
+.link-wrapper ul li a:hover{
+    text-decoration: underline;
+}
+.link-wrapper ul li a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 8px;
+    display: inline-block;
+}

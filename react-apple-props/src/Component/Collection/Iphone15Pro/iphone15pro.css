@@ -1,0 +1,9 @@
+.iPhone15-pro-wrapper{
+    background-image: url(../../../assets/images/home/iphone-15.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+    padding-top: 30px;
+}

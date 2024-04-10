@@ -1,0 +1,23 @@
+/* macbook-pro */
+.macbook-pro{
+    background-image: url(../../../assets/images/home/promo_mbp.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+/* fitness */
+.fitness{
+    background-image: url(../../../assets/images/home/woman-image.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+@media(min-width:768px){
+    .macbook-pro{
+        background-image: url(../../../assets/images/home/laptop-image.jpg);
+    }
+}

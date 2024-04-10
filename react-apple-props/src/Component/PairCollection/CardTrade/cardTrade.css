@@ -1,0 +1,17 @@
+/* applecard */
+.applecard{
+    background-image: url(../../../assets/images/home/tile.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
+.trade-in{
+    background-image: url(../../../assets/images/home/promo_iphon.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align: center;
+    height: 500px;
+}
